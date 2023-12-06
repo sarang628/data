@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit
 /** 알림 리스트 데이터 */
 data class AlarmListItem(
     val id: Int = 0,
-    val user: User? = null,
+    val user: AlarmUser? = null,
     val contents: String = "",
     val otherPictureUrl: String = "",
     val createdDate: String = "",
